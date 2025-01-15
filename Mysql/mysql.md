@@ -33,3 +33,11 @@
 
 ### Table Created
 ![alt text](Xampp9.png)
+
+## INSERT INTO
+
+### syntax --> INSERT INTO table_name (column1, column2, column3, ...)VALUES (value1, value2, value3, ...);
+![alt text](Xampp10.png)
+
+### Data Inserted
+![alt text](Xampp11.png)
