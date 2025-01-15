@@ -18,7 +18,7 @@
 ### Created <br>
 ![alt text](Xampp5.png)
 
-## Drop Database
+## DROP DATABASE
 
 ### Syntax --> DROP DATABASE databasename;
 ![alt text](Xampp6.png)
@@ -26,3 +26,10 @@
 ### Dropped <br>
 ![alt text](Xampp7.png)
 
+## CREATE TABLE
+
+### syntax --> CREATE TABLE table_name (column1 datatype, column2 datatype, ....);
+![alt text](Xampp8.png)
+
+### Table Created
+![alt text](Xampp9.png)
