@@ -15,7 +15,7 @@
 Syntax --> CREATE DATABASE databasename;
 ![alt text](Xampp4.png)
 
-Created
+Created <br>
 ![alt text](Xampp5.png)
 
 
