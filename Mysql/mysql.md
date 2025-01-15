@@ -12,12 +12,17 @@
 
 ## CREATE DATABASE
 
-<h3>Syntax --> CREATE DATABASE databasename;</h3>
+### Syntax --> CREATE DATABASE databasename;
 ![alt text](Xampp4.png)
 
-<h3>Created</h3><br>
+### Created <br>
 ![alt text](Xampp5.png)
 
+## Drop Database
 
+### Syntax --> DROP DATABASE databasename;
+![alt text](Xampp6.png)
 
+### Dropped <br>
+![alt text](Xampp7.png)
 
