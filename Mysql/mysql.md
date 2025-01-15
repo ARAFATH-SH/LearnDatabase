@@ -9,3 +9,15 @@
 
 ### Localhost page through Mysql Admin
 ![alt text](Xampp3.png)
+
+## CREATE DATABASE
+
+Syntax --> CREATE DATABASE databasename;
+![alt text](Xampp4.png)
+
+Created
+![alt text](Xampp5.png)
+
+
+
+
