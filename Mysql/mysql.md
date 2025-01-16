@@ -11,35 +11,31 @@
 ![alt text](Images/Xampp3.png)
 
 ## CREATE DATABASE
+CREATE DATABASE statement is used to create a new SQL database.
 
 ### Syntax --> CREATE DATABASE databasename;
 ![alt text](Images/Xampp4.png)
-
-### Created <br>
 ![alt text](Images/Xampp5.png)
 
 ## DROP DATABASE
+DROP DATABASE statement is used to drop an existing SQL database.
 
 ### Syntax --> DROP DATABASE databasename;
 ![alt text](Images/Xampp6.png)
-
-### Dropped <br>
 ![alt text](Images/Xampp7.png)
 
 ## CREATE TABLE
+CREATE TABLE statement is used to create a new table in a database.
 
 ### syntax --> CREATE TABLE table_name (column1 datatype, column2 datatype, ....);
 ![alt text](Images/Xampp8.png)
-
-### Table Created
 ![alt text](Images/Xampp9.png)
 
 ## INSERT INTO
+INSERT INTO statement is used to insert new records in a table.
 
 ### syntax --> INSERT INTO table_name (column1, column2, column3, ...)VALUES (value1, value2, value3, ...);
 ![alt text](Images/Xampp10.png)
-
-### Data Inserted
 ![alt text](Images/Xampp11.png)
 
 ## SELECT
