@@ -41,3 +41,42 @@
 
 ### Data Inserted
 ![alt text](Xampp11.png)
+
+## SELECT
+Select statement is used to select data from a database.
+
+### syntax --> SELECT column1, column2, ...FROM table_name;
+![alt text](Xampp12.png)
+![alt text](Xampp13.png)
+
+### If anyone want to select all the fields available in the table, than syntax is: SELECT * FROM table_name;
+![alt text](Xampp14.png)
+![alt text](Xampp15.png)
+
+## SELECT DISTINCT
+This SQL statement selects only the DISTINCT values
+
+### syntax --> SELECT DISTINCT Column1,column2,... FROM table_name;
+![alt text](Xampp16.png)
+![alt text](Xampp17.png)
+
+
+## LIMIT
+LIMIT is used to specify the number of records to return.
+
+### syntax --> SELECT column_name(s) FROM table_name LIMIT number; or SELECT * FROM table_name LIMIT number;
+![alt text](Xampp18.png)
+![alt text](Xampp19.png)
+
+## ORDER BY
+ORDER BY keyword is used to sort the result-set in ascending or descending order.
+
+For ascending order 
+### syntax --> SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ...;
+![alt text](Xampp20.png)
+![alt text](Xampp21.png)
+
+For descending order
+### syntax --> SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... DESC;
+![alt text](Xampp22.png)
+![alt text](Xampp23.png)
