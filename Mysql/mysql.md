@@ -76,3 +76,42 @@ For descending order
 ### syntax --> SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... DESC;
 ![alt text](Images/Xampp22.png)
 ![alt text](Images/Xampp23.png)
+
+## WHERE Clause
+WHERE clause is used to filter records.
+
+### syntax --> SELECT column1, column2, ... FROM table_name WHERE condition;
+![alt text](Images/Xampp24.png)
+![alt text](Images/Xampp25.png)
+
+WHERE clause can be combined with AND, OR, and NOT operators.
+
+### syntax --> SELECT column1, column2, ... FROM table_name WHERE condition1 AND condition2 AND condition3 ...;
+
+### syntax --> SELECT column1, column2, ... FROM table_name WHERE condition1 OR condition2 OR condition3 ...;
+
+## IN operator
+IN operator allows you to specify multiple values in a WHERE clause.
+
+### syntax --> SELECT column_name FROM table_name WHERE column_name IN (value1, value2, ...);
+
+
+## LIKE Operator
+LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+WHERE  LIKE 'a%'	Finds any values that start with "a"
+WHERE  LIKE '%a'	Finds any values that end with "a"
+WHERE  LIKE '%or%'	Finds any values that have "or" in any position
+WHERE  LIKE '_r%'	Finds any values that have "r" in the second position
+WHERE  LIKE 'a_%'	Finds any values that start with "a" and are at least 2 characters in length
+WHERE  LIKE 'a__%'	Finds any values that start with "a" and are at least 3 characters in length
+WHERE  LIKE 'a%o'	Finds any values that start with "a" and ends with "o"
+
+### syntax --> SELECT column1, column2, ... FROM table_name WHERE columnN LIKE pattern;
+![alt text](Images/Xampp26.png)
+![alt text](Images/Xampp27.png)
+
+## AS keyword
+The AS command is used to rename a column or table with an alias.
+
+### syntax --> SELECT Column1 AS new_name, Column2 AS new_name, ..... FROM table_name;
