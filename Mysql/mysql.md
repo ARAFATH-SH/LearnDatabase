@@ -99,13 +99,13 @@ IN operator allows you to specify multiple values in a WHERE clause.
 ## LIKE Operator
 LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 
-WHERE  LIKE 'a%'	Finds any values that start with "a"
-WHERE  LIKE '%a'	Finds any values that end with "a"
-WHERE  LIKE '%or%'	Finds any values that have "or" in any position
-WHERE  LIKE '_r%'	Finds any values that have "r" in the second position
-WHERE  LIKE 'a_%'	Finds any values that start with "a" and are at least 2 characters in length
-WHERE  LIKE 'a__%'	Finds any values that start with "a" and are at least 3 characters in length
-WHERE  LIKE 'a%o'	Finds any values that start with "a" and ends with "o"
+WHERE  LIKE 'a%'	Finds any values that start with "a"<br>
+WHERE  LIKE '%a'	Finds any values that end with "a"<br>
+WHERE  LIKE '%or%'	Finds any values that have "or" in any position<br>
+WHERE  LIKE '_r%'	Finds any values that have "r" in the second position<br>
+WHERE  LIKE 'a_%'	Finds any values that start with "a" and are at least 2 characters in length<br>
+WHERE  LIKE 'a__%'	Finds any values that start with "a" and are at least 3 characters in length<br>
+WHERE  LIKE 'a%o'	Finds any values that start with "a" and ends with "o"<br>
 
 ### syntax --> SELECT column1, column2, ... FROM table_name WHERE columnN LIKE pattern;
 ![alt text](Images/Xampp26.png)
