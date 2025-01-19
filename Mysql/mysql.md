@@ -115,3 +115,34 @@ WHERE  LIKE 'a%o'	Finds any values that start with "a" and ends with "o"<br>
 The AS command is used to rename a column or table with an alias.
 
 ### syntax --> SELECT Column1 AS new_name, Column2 AS new_name, ..... FROM table_name;
+
+## NOT NULL & AUTO INCREMENT 
+NOT NULL operator is used to test for non-empty values (NOT NULL values).
+AUTO_INCREMENT keyword to perform an auto-increment feature.
+
+## syntax --> Create table table_name( record(primary key) NOT NULL AUTO_INCREMENT);
+![alt text](Images/Xampp28.png)
+![alt text](Images/Xampp29.png)
+![alt text](Images/Xampp30.png)
+
+## UPDATE STATEMENT
+UPDATE statement is used to modify the existing records in a table.
+
+### syntax --> UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
+![alt text](Images/Xampp31.png)
+![alt text](Images/Xampp32.png)
+
+## DELETE STATEMENT
+DELETE statement is used to delete existing records in a table.
+
+### syntax --> DELETE FROM table_name WHERE condition;
+![alt text](Images/Xampp33.png)
+![alt text](Images/Xampp34.png)
+
+## UPPER AND LOWER FUNCTION
+The UPPER() function converts a string to upper-case.
+The LOWER() function converts a string to lower-case.
+
+### syntax --> SELECT UPPER/LOWER(column_name) FROM table_name;
+![alt text](Images/Xampp33.png)
+![alt text](Images/Xampp34.png)
